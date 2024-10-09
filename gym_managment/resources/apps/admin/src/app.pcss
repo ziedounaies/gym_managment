@@ -1,0 +1,22 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	@apply h-full overflow-hidden;
+}
+
+#sidebar-left {
+	@apply bg-gray-900;
+}
+
+.list-nav a {
+	@apply rounded-none text-white;
+	transition: all 250ms ease-in-out;
+}
+
+.list-nav a:hover {
+	@apply bg-gray-800 !important;
+}
