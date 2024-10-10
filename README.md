@@ -43,5 +43,5 @@ The Gym Management System is a web application designed to help gym owners and s
 
    ## Screenshots
 
-![Gym Management Dashboard](images/screenshot.png)
+![Gym Management Dashboard](images/list.png)
 
