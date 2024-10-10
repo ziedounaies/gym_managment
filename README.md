@@ -40,8 +40,10 @@ The Gym Management System is a web application designed to help gym owners and s
 
    ```bash
    git clone https://github.com/yourusername/gym-management-system.git
+   
+## Screenshots
 
-   ## Screenshots
-
-![Gym Management Dashboard](screenshot/list.png)
-
+![Gym Management Dashboard](screenshot/dashboard.png)
+![Gym Management list](screenshot/list.png)
+![Gym login](screenshot/login.png)
+![Gym profil](screenshot/profil.png)
