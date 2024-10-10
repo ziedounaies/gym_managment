@@ -17,7 +17,22 @@ The Gym Management System is a web application designed to help gym owners and s
 
 - **Frontend**:  HTML, bootstrap
 - **Backend**: Php
-- **Database**: MySQL 
+- **Database**: MySQL
+
+  ## API Endpoints
+
+### Authentication
+- `POST /api/auth/register`: Register a new user.
+- `POST /api/auth/login`: Login a user and get a JWT token.
+
+### gym
+- `GET /api/gym`: Get all projects for the logged-in user.
+- `POST /api/newgym`: Create a new project.
+- `PUT /api/gym/:id`: Update a project's priority.
+- `DELETE /api/gymdelete/:id`: Delete a project.
+
+### Notifications
+- Notifications are sent via real-time updates when a project’s priority changes.
 
 ## Installation
 
