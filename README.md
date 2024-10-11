@@ -13,12 +13,16 @@ The Gym Management System is a web application designed to help gym owners and s
 - **Admin Dashboard**: Admin panel to oversee memberships, payments, and class schedules.
 - **Notifications**: Alerts for upcoming classes, payment reminders, and more.
 
-## Tech Stack
+## Technologies Used
 
-- **Frontend**:  HTML, bootstrap
-- **Backend**: Php
-- **Database**: MySQL
+### Front-End:
+- **Html**: For building the user interface.
+- **Css**: design.
 
+
+### Back-End:
+- **Php**: For the server-side environment.
+- **Mysql**: For the database, using Mongoose as an ODM.
   ## API Endpoints
 
 ### Authentication
